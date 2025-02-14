@@ -15,7 +15,7 @@ Manteniendo el teselado hay varios cambios que se pueden hacer para adaptar el c
 
     R2 ya no será igual al segmento CB. CB pasa a ser el radio mayor (b) y R2 será el radio emnos (a). Por lo tanto el calculo de $\alpha$ cambia a $\sin\alpha = \dfrac{b}{R1+a}$ (duda: sigue siendo el sinus o es la tangente??? las graficas estan hechas con el sinus)
 
-En relación a estos cambios, he hecho dos calculos. Uno que solo hace el segundo cambio (es decir, adaptando a la forma del elipsoide pero calculando los radios con las formulas de los momentos de inercia de una esfera dura) y un con los dos cambios (forma esferica y radios calculados con los momnetos de inercia del elipsoide escritos arriba).
+En relación a estos cambios, he hecho dos calculos. Uno que solo hace el segundo cambio (es decir, adaptando a la forma del elipsoide pero calculando los radios con las formulas de los momentos de inercia de una esfera dura) y un con los dos cambios (forma elipsoidal y radios calculados con los momentos de inercia del elipsoide escritos arriba).
 
 
 ![image](https://github.com/user-attachments/assets/9464a48a-5f20-4796-b357-b02f587604cf)
