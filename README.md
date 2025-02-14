@@ -9,3 +9,5 @@ This repository contains the Python codes used and the molecular dynamics simula
 3. Conformational Changes: Another approach involves examining how the protein undergoes conformational changes when it adsorbs onto the surface of a nanoparticle, and how this movement affects the maximum number of proteins.
 
 4. Inertia Radius: Calculations of the three principal moments of inertia and their corresponding radius, approximating the protein as a sphere.
+
+5. Ellipsoid. The geometric model and the calculation of the moments of inertia are adjusted to an ellipsoidal shape for the protein.
