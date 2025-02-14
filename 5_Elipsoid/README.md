@@ -1,6 +1,6 @@
-# Como adaptar el modelo geometrico a elipsoides
+# Como adaptar el modelo geometrico a elipsoides (explicación para enterarme)
 
-El modelo geométrico que se está usando del articulo de M. Soloviev et al. (2021) crea un teselado esferico colocando los estos puntos en el centro de hexagonos sobre la superfiece de la esfera teniendo en cuenta la separación angular entre los centros de cada hexagono. 
+El modelo geométrico que se está usando del articulo de M. Soloviev et al. (2021) crea un teselado esferico colocando las esferas pequeñas en el centro de hexagonos sobre la superfiece de la esfera teniendo en cuenta la separación angular entre los centros de cada hexagono. 
 Este modelo es una solución asintótica del problema de Tammes. Esta disposición minimiza la distancia entre los puntos distribuidos en la esfera y maximiza la densidad de empaquetamiento.
 Para adaptar este tesalado a elipsoides en vez de esferas se me ocurre:
 
