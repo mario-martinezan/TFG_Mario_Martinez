@@ -18,7 +18,5 @@ Manteniendo el teselado hay varios cambios que se pueden hacer para adaptar el c
 En relación a estos cambios, he hecho dos calculos. Uno que solo hace el segundo cambio (es decir, adaptando a la forma del elipsoide pero calculando los radios con las formulas de los momentos de inercia de una esfera dura) y un con los dos cambios (forma elipsoidal y radios calculados con los momentos de inercia del elipsoide escritos arriba).
 
 
-![image](https://github.com/user-attachments/assets/9464a48a-5f20-4796-b357-b02f587604cf)
-
 
 
