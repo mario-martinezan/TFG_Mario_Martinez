@@ -30,57 +30,19 @@ for i in universe.trajectory:
     frames.append(frame)
     I_tensor = protein.moment_of_inertia()
     I_values = np.linalg.eigvals(I_tensor) /100 # Tres valores correspondientes a los ejes principales EN NANOMETROS
-    if I_values[0]>I_values[1] and I_values[0]>I_values[2]:
-        Ivalue0 = I_values[0]
-        if I_values[1]>I_values[2]:
-            Ivalue1 = I_values[1]
-            Ivalue2 = I_values[2]
-        else:
-            Ivalue1 = I_values[2]
-            Ivalue2 = I_values[1]
-    elif I_values[1]>I_values[0] and I_values[1]>I_values[2]:
-        Ivalue0 = I_values[1]
-        if I_values[0]>I_values[2]:
-            Ivalue1 = I_values[0]
-            Ivalue2 = I_values[2]
-        else:
-            Ivalue1 = I_values[2]
-            Ivalue2 = I_values[0]
-    else:
-        Ivalue0 = I_values[2]
-        if I_values[0]>I_values[1]:
-            Ivalue1 = I_values[0]
-            Ivalue2 = I_values[1]
-        else:
-            Ivalue1 = I_values[1]
-            Ivalue2 = I_values[0]
-    radio1 = np.sqrt(Ivalue0*5/(2*masa) ) 
-    radio2 = np.sqrt((Ivalue1*5/masa)-radio1**2) 
-    radio3 = np.sqrt((Ivalue2*5/masa)-radio1**2) 
-    if radio1>radio2 and radio1>radio3:
-        r_gran.append(radio1)
-        if radio2>radio3:
-            r_mid.append(radio2)
-            r_peq.append(radio3)
-        else:
-            r_mid.append(radio3)
-            r_peq.append(radio2)
-    elif radio2>radio1 and radio2>radio3:
-        r_gran.append(radio2)
-        if radio1>radio3:
-            r_mid.append(radio1)
-            r_peq.append(radio3)
-        else:
-            r_mid.append(radio3)
-            r_peq.append(radio1)
-    else:
-        r_gran.append(radio3)
-        if radio1>radio2:
-            r_mid.append(radio1)
-            r_peq.append(radio2)
-        else:
-            r_mid.append(radio2)
-            r_peq.append(radio1)
+    I_values.sort()
+    radio1 = np.sqrt(I_values[2]*5/(2*masa) ) 
+    radio2 = np.sqrt((I_values[1]*5/masa)-radio1**2) 
+    radio3 = np.sqrt((I_values[0]*5/masa)-radio1**2) 
+    radios = []
+    radios.append(radio1)
+    radios.append(radio2)
+    radios.append(radio3)
+    radios.sort()
+    r_gran.append(radios[2])
+    r_mid.append(radios[1])
+    r_peq.append(radios[0])
+
     
 
 
@@ -118,11 +80,11 @@ plt.plot(tiempo, r_gran, label=" Radius of inertia 1 (nm)", color="cyan", linewi
 plt.plot(tiempo, r_mid, label=" Radius of inertia 2 (nm)", color="magenta", linewidth=1)
 plt.plot(tiempo, r_peq, label=" Radius of inertia 3 (nm)", color="yellow", linewidth=1)
 
-plt.plot(tiempo[3500:], [eqs1]*len(tiempo[3500:]), color="black", linewidth=0.8)
-plt.plot(tiempo[3500:], [eqs2]*len(tiempo[3500:]), color="black", linewidth=0.8)
-plt.plot(tiempo[3500:], [eqs3]*len(tiempo[3500:]), color="black", linewidth=0.8)
+plt.plot(tiempo[3500:], [eqs1]*len(tiempo[3500:]), color="black", linewidth=1.8)
+plt.plot(tiempo[3500:], [eqs2]*len(tiempo[3500:]), color="black", linewidth=1.8)
+plt.plot(tiempo[3500:], [eqs3]*len(tiempo[3500:]), color="black", linewidth=1.8)
 
-plt.title("Radius of inertia for an elipsoid (nm)", fontsize=16, pad=15)
+#plt.title("Radius of inertia for an elipsoid (nm)", fontsize=16, pad=15)
 plt.xlabel("Time (ps)", fontsize=14, labelpad=10)
 plt.ylabel("Radius (nm)", fontsize=14, labelpad=10)
 plt.grid(True, which="both", linestyle="--", linewidth=0.5, alpha=0.7)
@@ -131,6 +93,8 @@ plt.yticks(fontsize=12)
 plt.tight_layout()
 #plt.legend()
 plt.savefig("f_inertia_radius_elip")
+
+
 
 
 #################################3
@@ -158,7 +122,10 @@ eqs3c= sum(r_peqc[3500:])/len(r_peqc[3500:])
 
 
 #################33
-r1 = np.linspace(3,9.4)
+s3= 3/2
+s6= 6/2
+s9= 9/2
+r1 = np.linspace(s3,4.7,50)
 
 def n_max_elip (r1, a,b):
     alpha = math.asin((b)/(a+r1))
@@ -172,51 +139,65 @@ for i in r1:
     nradio.append(n_max_elip(i, eqs2,eqs1))
     nradioc.append(n_max_elip(i, eqs2c,eqs1c))
 
-#def inversa(r):
- #   return 1 - (r - 3) / (9.4 - 3)
+con_masa = []
+def n_max_mas (m, r1):
+    #print(m)
+    #m1 = (m / (1.66054 * 10**(-21)) ) #* (6.02214076*10**23)
+    #print(m1)
+    m1 = m
+    r2 = 0.066 * (m1**(1/3))
+    #print(r2)
+    alpha = math.asin(r2/(r2+r1))
+    nmax = math.floor((2 * math.sqrt(3)* math.pi) / (3 * (alpha ** 2)))
+    #print(nmax)
+    return nmax
 
+masa = protein.total_mass() # en umas?
+for i in r1:
+    con_masa.append(n_max_mas(masa, i))
 
-
-x_sim = np.array([3, 6, 9]) 
+x_sim = np.array([s3, s6, s9]) 
 y_sim = np.array([3, 10, 30]) 
 coeficientes = np.polyfit(x_sim, y_sim, 2)  # Ajuste de curva
 polinomio = np.poly1d(coeficientes)  # Crear la función del polinomio
 curva_sim = polinomio(r1) 
 
-x_ex = np.array([4, 5.7, 9.4]) 
+
+x_ex = np.array([4/2, 5.7/2, 9.4/2]) 
 y_ex = np.array([4, 12, 40]) 
 coeficientes_ex = np.polyfit(x_ex, y_ex, 2)  # Ajuste de curva
 polinomio_ex = np.poly1d(coeficientes_ex)  # Crear la función del polinomio
 curva_ex = polinomio_ex(r1) 
 
 plt.figure(figsize=(8, 6))
-plt.title("Maximun number of proteins in the surface", fontsize=16, pad=15)
+#plt.title("Maximun number of proteins in the surface", fontsize=16, pad=15)
 plt.xlabel("Nanoparticle radius (nm)", fontsize=14, labelpad=10)
-plt.ylabel("Nº of proteins", fontsize=14, labelpad=10)
+plt.ylabel("# of proteins", fontsize=14, labelpad=10)
 plt.grid(True, which="both", linestyle="--", linewidth=0.5, alpha=0.7)
 
-plt.plot(r1, curva_sim, color="green", linewidth=1)
-plt.scatter(3,3, color= "green")
-plt.scatter(6,10, color= "green")
-plt.scatter(9,30, color= "green", label="Simulation")
+plt.plot(r1, curva_sim, color="purple", linewidth=2)
+plt.scatter(s3,3, color= "purple", linewidth=4)
+plt.scatter(s6,10, color= "purple", linewidth=4)
+plt.scatter(s9,30, color= "purple", linewidth=4, label="MD Simulation")
 
-plt.plot(r1, curva_ex, color="blue", linewidth=1)
-plt.scatter(4,4, color= "blue")
-plt.scatter(5.7,12, color= "blue")
-plt.scatter(9.4,40, color= "blue", label="Experimental")
+plt.plot(r1, curva_ex, color="black", linewidth=2)
+plt.scatter(4/2,4, color= "black", linewidth=4)
+plt.scatter(5.7/2,12, color= "black", linewidth=4)
+plt.scatter(9.4/2,40, color= "black", linewidth=4, label="Experimental")
 
-plt.plot(r1, nradio, color="chocolate", linewidth=1)
-plt.scatter(3,n_max_elip(3, eqs2, eqs1), color= "chocolate")
-plt.scatter(6,n_max_elip(6, eqs2, eqs1), color= "chocolate")
-plt.scatter(9,n_max_elip(9, eqs2, eqs1), color= "chocolate", label="Model (Elipsoid with I elip.)")
+plt.plot(r1, nradio, color="green", linewidth=2)
+plt.scatter(s3,n_max_elip(s3, eqs2, eqs1), color= "green", linewidth=4)
+plt.scatter(s6,n_max_elip(s6, eqs2, eqs1), color= "green", linewidth=4)
+plt.scatter(s9,n_max_elip(s9, eqs2, eqs1), color= "green", linewidth=4, label="Elipsoidal Model")
 
-plt.plot(r1, nradioc, color="pink", linewidth=1)
-plt.scatter(3,n_max_elip(3, eqs2c, eqs1c), color= "pink")
-plt.scatter(6,n_max_elip(6, eqs2c, eqs1c), color= "pink")
-plt.scatter(9,n_max_elip(9, eqs2c, eqs1c), color= "pink", label="Model (Elipsoid with I esfe.)")
+plt.plot(r1, con_masa, color="red", linewidth=2)
+plt.scatter(s3,n_max_mas(masa, s3), color= "red", linewidth=4)
+plt.scatter(s6,n_max_mas(masa, s6), color= "red", linewidth=4)
+plt.scatter(s9,n_max_mas(masa, s9), color= "red", linewidth=4, label="Geometric Model ")
 
 plt.xticks(fontsize=12)
 plt.yticks(fontsize=12)
-plt.legend()
+
+plt.legend(fontsize=14)
 plt.tight_layout()
 plt.savefig("f_nmax_elipsoid")
