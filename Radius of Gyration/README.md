@@ -3,4 +3,5 @@ Variation of the radius of gyration along the trajectory.
 
 
 Number of proteins packaged within a NP surface of different radii.
-![f_nmax_radius_gy](https://github.com/user-attachments/assets/b5e79fba-9c53-4355-b37f-804770037d20)
+![f_radius_gy](https://github.com/user-attachments/assets/6f344a71-dce0-41ce-925c-283c9e116b65)
+
