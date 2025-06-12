@@ -1,0 +1,1344 @@
+slurmstepd: info: Setting TMPDIR to /scratch/13393721. Previous errors about TMPDIR can be discarded
+Configuration file is: setup.dat
+setup.dat: setup.dat
+number of equilibration timesteps set to: 100000
+number of simulation timesteps set to: 10000000
+number of rdf measure timesteps set to: 100000
+number of movie period steps set to: 100000
+number of thermo steps set to: 100000
+number of keep ratio steps set to: 100000
+number of rdf period steps set to: 10000
+Timestep set to dt=0.050000
+Starting temperature set to Tinit=1.000000
+Thermostat objective temperature set to T0=1.000000
+Langevin Heat-bath coupling Gamma1=0.010000
+Langevin Heat-bath coupling Gamma2=0.010000
+Langevin Heat-bath coupling Gamma3=0.010000
+Using GPU number 0
+Number of GPU threads set to 256
+Verbose mode activated
+Keeping constant concentration of proteins
+root:./
+init.dat: ./config/init.dat
+nRef 0: 0
+nRef 1: 0
+nRef 2: 53281
+K_pp: 66.000000
+EpsDiag: ON
+Debye length: 0.508000
+Parameter R_NP = 3.000000
+maxR 3.600000 Rs:0.000000,0.000000,3.600000
+Parameter cutoff radius rc0: 3.600, rc1: 3.600, rc2: 10.800, 
+Parameter verlet radius rc0: 5.400, rc1: 5.400, rc2: 16.200, 
+Parameter verlet skin: 7.290
+Neighbor list allocated
+Verlet list allocated
+GPU Neighbor parameters allocated
+Init config read
+Configuration read
+Number of particles: 1024
+Computing potential tables
+End of Computing potential tables
+Temperature: 1.009183
+
+lang prefactor 1 0.632456
+lang prefactor 2 0.632456
+lang prefactor 3 0.632456
+Starting simulation with 1024 particles
+Stop time: 0
+Stop mol 0: False
+Stop mol 1: False
+Stop mol 2: False
+Stop time mol 0: 0
+Stop time mol 1: 0
+Stop time mol 2: 0
+Step 0 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5117 P 0.0000 T 1.0078
+Setting concentrations
+Setting concentrations
+Setting concentrations
+Setting concentrations
+Setting concentrations
+Setting concentrations
+Setting concentrations
+Setting concentrations
+Setting concentrations
+Setting concentrations
+listcouted 938 times. Update period is: 70
+Starting main simulation
+Step 0 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4849 P 0.0000 T 0.9900
+Adsorbed: 0
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990580e-05	 Act. Conc.: 3.747106e-05
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990580e-05	 Act. Conc.: 3.747106e-05
+Adsorbed: 0
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990580e-05	 Act. Conc.: 3.747106e-05
+Adsorbed: 0
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990580e-05	 Act. Conc.: 3.747106e-05
+Adsorbed: 0
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990580e-05	 Act. Conc.: 3.747106e-05
+Adsorbed: 0
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990580e-05	 Act. Conc.: 3.747106e-05
+Adsorbed: 0
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990580e-05	 Act. Conc.: 3.747106e-05
+Adsorbed: 0
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990580e-05	 Act. Conc.: 3.747106e-05
+Adsorbed: 0
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990580e-05	 Act. Conc.: 3.747106e-05
+Adsorbed: 0
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990580e-05	 Act. Conc.: 3.747106e-05
+Adsorbed: 0
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990580e-05	 Act. Conc.: 3.747106e-05
+Adsorbed: 0
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990580e-05	 Act. Conc.: 3.747106e-05
+Adsorbed: 0
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990580e-05	 Act. Conc.: 3.747106e-05
+Adsorbed: 0
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990580e-05	 Act. Conc.: 3.747106e-05
+Adsorbed: 0
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990411e-05	 Act. Conc.: 3.718171e-05
+Adsorbed: 1
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990411e-05	 Act. Conc.: 3.718171e-05
+Adsorbed: 1
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990411e-05	 Act. Conc.: 3.732639e-05
+Adsorbed: 1
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990411e-05	 Act. Conc.: 3.747106e-05
+Adsorbed: 1
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990411e-05	 Act. Conc.: 3.732639e-05
+Adsorbed: 1
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990411e-05	 Act. Conc.: 3.739873e-05
+Adsorbed: 1
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990243e-05	 Act. Conc.: 3.761574e-05
+Adsorbed: 2
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	2	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990243e-05	 Act. Conc.: 3.747106e-05
+Adsorbed: 2
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	2	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990411e-05	 Act. Conc.: 3.783275e-05
+Adsorbed: 1
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990580e-05	 Act. Conc.: 3.776042e-05
+Adsorbed: 0
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990580e-05	 Act. Conc.: 3.783275e-05
+Adsorbed: 0
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990411e-05	 Act. Conc.: 3.776042e-05
+Adsorbed: 1
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	1	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990243e-05	 Act. Conc.: 3.754340e-05
+Adsorbed: 2
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	2	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990580e-05	 Act. Conc.: 3.754340e-05
+Adsorbed: 0
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990411e-05	 Act. Conc.: 3.826678e-05
+Adsorbed: 1
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990243e-05	 Act. Conc.: 3.682002e-05
+Adsorbed: 2
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	2	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989905e-05	 Act. Conc.: 3.797743e-05
+Adsorbed: 4
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	3	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990243e-05	 Act. Conc.: 3.891782e-05
+Adsorbed: 2
+Total:         0	0	1024	
+Hard Corona:   0	0	2	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989905e-05	 Act. Conc.: 3.899016e-05
+Adsorbed: 4
+Total:         0	0	1024	
+Hard Corona:   0	0	1	
+Soft Corona 1: 0	0	2	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989905e-05	 Act. Conc.: 3.747106e-05
+Adsorbed: 4
+Total:         0	0	1024	
+Hard Corona:   0	0	3	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990074e-05	 Act. Conc.: 3.732639e-05
+Adsorbed: 3
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	2	
+Soft Corona 2: 0	0	1	
+Step 100000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4694 P 0.0000 T 0.9796
+Adsorbed: 1
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	1	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990411e-05	 Act. Conc.: 3.660301e-05
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990411e-05	 Act. Conc.: 3.927951e-05
+Adsorbed: 1
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	1	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990074e-05	 Act. Conc.: 3.776042e-05
+Adsorbed: 3
+Total:         0	0	1024	
+Hard Corona:   0	0	1	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	2	
+Step 200000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4405 P 0.0000 T 0.9603
+Adsorbed: 4
+Total:         0	0	1024	
+Hard Corona:   0	0	1	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	3	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989905e-05	 Act. Conc.: 3.689236e-05
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989905e-05	 Act. Conc.: 3.804977e-05
+Adsorbed: 4
+Total:         0	0	1024	
+Hard Corona:   0	0	4	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	0	
+Step 300000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4714 P 0.0000 T 0.9809
+Adsorbed: 5
+Total:         0	0	1024	
+Hard Corona:   0	0	4	
+Soft Corona 1: 0	0	1	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989736e-05	 Act. Conc.: 3.638600e-05
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990074e-05	 Act. Conc.: 4.021991e-05
+Adsorbed: 3
+Total:         0	0	1024	
+Hard Corona:   0	0	1	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	2	
+Step 400000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5307 P 0.0000 T 1.0205
+Adsorbed: 2
+Total:         0	0	1024	
+Hard Corona:   0	0	1	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990243e-05	 Act. Conc.: 4.000289e-05
+Step 500000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4520 P 0.0000 T 0.9680
+Adsorbed: 4
+Total:         0	0	1024	
+Hard Corona:   0	0	2	
+Soft Corona 1: 0	0	1	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989905e-05	 Act. Conc.: 3.739873e-05
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989905e-05	 Act. Conc.: 3.732639e-05
+Adsorbed: 4
+Total:         0	0	1024	
+Hard Corona:   0	0	2	
+Soft Corona 1: 0	0	1	
+Soft Corona 2: 0	0	1	
+Step 600000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5192 P 0.0000 T 1.0128
+Adsorbed: 3
+Total:         0	0	1024	
+Hard Corona:   0	0	1	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	2	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990074e-05	 Act. Conc.: 3.855613e-05
+Step 700000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4824 P 0.0000 T 0.9882
+Adsorbed: 2
+Total:         0	0	1024	
+Hard Corona:   0	0	2	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990243e-05	 Act. Conc.: 3.783275e-05
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990243e-05	 Act. Conc.: 3.790509e-05
+Adsorbed: 2
+Total:         0	0	1024	
+Hard Corona:   0	0	2	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	0	
+Step 800000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5667 P 0.0000 T 1.0445
+Adsorbed: 7
+Total:         0	0	1024	
+Hard Corona:   0	0	5	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	2	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989399e-05	 Act. Conc.: 3.776042e-05
+Step 900000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5391 P 0.0000 T 1.0260
+Adsorbed: 3
+Total:         0	0	1024	
+Hard Corona:   0	0	1	
+Soft Corona 1: 0	0	1	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990074e-05	 Act. Conc.: 3.826678e-05
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989736e-05	 Act. Conc.: 3.797743e-05
+Adsorbed: 5
+Total:         0	0	1024	
+Hard Corona:   0	0	3	
+Soft Corona 1: 0	0	1	
+Soft Corona 2: 0	0	1	
+Step 1000000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4884 P 0.0000 T 0.9923
+Adsorbed: 2
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	2	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990243e-05	 Act. Conc.: 3.804977e-05
+Step 1100000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5152 P 0.0000 T 1.0101
+Adsorbed: 1
+Total:         0	0	1024	
+Hard Corona:   0	0	1	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990411e-05	 Act. Conc.: 3.848380e-05
+Step 1200000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5058 P 0.0000 T 1.0039
+Adsorbed: 3
+Total:         0	0	1024	
+Hard Corona:   0	0	1	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	2	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990074e-05	 Act. Conc.: 3.884549e-05
+Step 1300000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4818 P 0.0000 T 0.9878
+Adsorbed: 0
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990580e-05	 Act. Conc.: 3.703704e-05
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989905e-05	 Act. Conc.: 3.993056e-05
+Adsorbed: 4
+Total:         0	0	1024	
+Hard Corona:   0	0	1	
+Soft Corona 1: 0	0	2	
+Soft Corona 2: 0	0	1	
+Step 1400000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4963 P 0.0000 T 0.9975
+Adsorbed: 7
+Total:         0	0	1024	
+Hard Corona:   0	0	4	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	3	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989399e-05	 Act. Conc.: 3.978588e-05
+Step 1500000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5211 P 0.0000 T 1.0140
+Adsorbed: 0
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990580e-05	 Act. Conc.: 4.094329e-05
+Step 1600000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4506 P 0.0000 T 0.9671
+Adsorbed: 2
+Total:         0	0	1024	
+Hard Corona:   0	0	1	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990243e-05	 Act. Conc.: 3.949653e-05
+Step 1700000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4569 P 0.0000 T 0.9713
+Adsorbed: 1
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990411e-05	 Act. Conc.: 3.812211e-05
+Step 1800000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4586 P 0.0000 T 0.9724
+Adsorbed: 1
+Total:         0	0	1024	
+Hard Corona:   0	0	1	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990411e-05	 Act. Conc.: 4.029225e-05
+Step 1900000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4825 P 0.0000 T 0.9884
+Adsorbed: 10
+Total:         0	0	1024	
+Hard Corona:   0	0	4	
+Soft Corona 1: 0	0	4	
+Soft Corona 2: 0	0	2	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.988893e-05	 Act. Conc.: 3.515625e-05
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989061e-05	 Act. Conc.: 3.768808e-05
+Adsorbed: 9
+Total:         0	0	1024	
+Hard Corona:   0	0	6	
+Soft Corona 1: 0	0	3	
+Soft Corona 2: 0	0	0	
+Step 2000000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4585 P 0.0000 T 0.9723
+Adsorbed: 10
+Total:         0	0	1024	
+Hard Corona:   0	0	7	
+Soft Corona 1: 0	0	2	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.988893e-05	 Act. Conc.: 3.833912e-05
+Step 2100000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4770 P 0.0000 T 0.9847
+Adsorbed: 2
+Total:         0	0	1024	
+Hard Corona:   0	0	2	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990243e-05	 Act. Conc.: 3.927951e-05
+Step 2200000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5143 P 0.0000 T 1.0095
+Adsorbed: 6
+Total:         0	0	1024	
+Hard Corona:   0	0	3	
+Soft Corona 1: 0	0	2	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989568e-05	 Act. Conc.: 3.790509e-05
+Step 2300000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4679 P 0.0000 T 0.9786
+Adsorbed: 1
+Total:         0	0	1024	
+Hard Corona:   0	0	1	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990411e-05	 Act. Conc.: 4.101563e-05
+Step 2400000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5223 P 0.0000 T 1.0148
+Adsorbed: 12
+Total:         0	0	1024	
+Hard Corona:   0	0	6	
+Soft Corona 1: 0	0	4	
+Soft Corona 2: 0	0	2	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.988555e-05	 Act. Conc.: 3.841146e-05
+Step 2500000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5247 P 0.0000 T 1.0165
+Adsorbed: 12
+Total:         0	0	1024	
+Hard Corona:   0	0	8	
+Soft Corona 1: 0	0	3	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.988555e-05	 Act. Conc.: 3.848380e-05
+Step 2600000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4366 P 0.0000 T 0.9577
+Adsorbed: 14
+Total:         0	0	1024	
+Hard Corona:   0	0	7	
+Soft Corona 1: 0	0	5	
+Soft Corona 2: 0	0	2	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.988218e-05	 Act. Conc.: 3.964120e-05
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.988386e-05	 Act. Conc.: 3.580729e-05
+Adsorbed: 13
+Total:         0	0	1024	
+Hard Corona:   0	0	8	
+Soft Corona 1: 0	0	4	
+Soft Corona 2: 0	0	1	
+Step 2700000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5913 P 0.0000 T 1.0609
+Adsorbed: 16
+Total:         0	0	1024	
+Hard Corona:   0	0	7	
+Soft Corona 1: 0	0	6	
+Soft Corona 2: 0	0	3	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.987880e-05	 Act. Conc.: 3.573495e-05
+Step 2800000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4831 P 0.0000 T 0.9887
+Adsorbed: 7
+Total:         0	0	1024	
+Hard Corona:   0	0	4	
+Soft Corona 1: 0	0	3	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989399e-05	 Act. Conc.: 3.710937e-05
+Step 2900000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4926 P 0.0000 T 0.9951
+Adsorbed: 3
+Total:         0	0	1024	
+Hard Corona:   0	0	1	
+Soft Corona 1: 0	0	1	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990074e-05	 Act. Conc.: 3.587963e-05
+Step 3000000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4753 P 0.0000 T 0.9836
+Adsorbed: 9
+Total:         0	0	1024	
+Hard Corona:   0	0	6	
+Soft Corona 1: 0	0	1	
+Soft Corona 2: 0	0	2	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989061e-05	 Act. Conc.: 3.884549e-05
+Step 3100000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5124 P 0.0000 T 1.0083
+Adsorbed: 20
+Total:         0	0	1024	
+Hard Corona:   0	0	7	
+Soft Corona 1: 0	0	9	
+Soft Corona 2: 0	0	4	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.987205e-05	 Act. Conc.: 3.812211e-05
+Step 3200000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4838 P 0.0000 T 0.9892
+Adsorbed: 13
+Total:         0	0	1024	
+Hard Corona:   0	0	7	
+Soft Corona 1: 0	0	3	
+Soft Corona 2: 0	0	3	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.988386e-05	 Act. Conc.: 3.768808e-05
+Step 3300000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4734 P 0.0000 T 0.9823
+Adsorbed: 6
+Total:         0	0	1024	
+Hard Corona:   0	0	3	
+Soft Corona 1: 0	0	1	
+Soft Corona 2: 0	0	2	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989568e-05	 Act. Conc.: 3.797743e-05
+Step 3400000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4860 P 0.0000 T 0.9907
+Adsorbed: 4
+Total:         0	0	1024	
+Hard Corona:   0	0	2	
+Soft Corona 1: 0	0	1	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989905e-05	 Act. Conc.: 3.841146e-05
+Step 3500000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4800 P 0.0000 T 0.9866
+Adsorbed: 5
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	3	
+Soft Corona 2: 0	0	2	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989736e-05	 Act. Conc.: 3.819444e-05
+Step 3600000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5251 P 0.0000 T 1.0168
+Adsorbed: 3
+Total:         0	0	1024	
+Hard Corona:   0	0	1	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	2	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990074e-05	 Act. Conc.: 3.609664e-05
+Step 3700000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4638 P 0.0000 T 0.9759
+Adsorbed: 2
+Total:         0	0	1024	
+Hard Corona:   0	0	2	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990243e-05	 Act. Conc.: 3.927951e-05
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990074e-05	 Act. Conc.: 3.877315e-05
+Adsorbed: 3
+Total:         0	0	1024	
+Hard Corona:   0	0	1	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	2	
+Step 3800000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4754 P 0.0000 T 0.9836
+Adsorbed: 5
+Total:         0	0	1024	
+Hard Corona:   0	0	3	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	2	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989736e-05	 Act. Conc.: 3.739873e-05
+Step 3900000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5313 P 0.0000 T 1.0209
+Adsorbed: 6
+Total:         0	0	1024	
+Hard Corona:   0	0	3	
+Soft Corona 1: 0	0	3	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989568e-05	 Act. Conc.: 3.848380e-05
+Step 4000000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5500 P 0.0000 T 1.0333
+Adsorbed: 10
+Total:         0	0	1024	
+Hard Corona:   0	0	5	
+Soft Corona 1: 0	0	3	
+Soft Corona 2: 0	0	2	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.988893e-05	 Act. Conc.: 3.732639e-05
+Step 4100000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4893 P 0.0000 T 0.9929
+Adsorbed: 13
+Total:         0	0	1024	
+Hard Corona:   0	0	5	
+Soft Corona 1: 0	0	7	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.988386e-05	 Act. Conc.: 3.848380e-05
+Step 4200000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4403 P 0.0000 T 0.9602
+Adsorbed: 5
+Total:         0	0	1024	
+Hard Corona:   0	0	1	
+Soft Corona 1: 0	0	3	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989736e-05	 Act. Conc.: 3.732639e-05
+Step 4300000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5206 P 0.0000 T 1.0137
+Adsorbed: 8
+Total:         0	0	1024	
+Hard Corona:   0	0	4	
+Soft Corona 1: 0	0	4	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989230e-05	 Act. Conc.: 3.768808e-05
+Step 4400000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5307 P 0.0000 T 1.0205
+Adsorbed: 12
+Total:         0	0	1024	
+Hard Corona:   0	0	5	
+Soft Corona 1: 0	0	4	
+Soft Corona 2: 0	0	3	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.988555e-05	 Act. Conc.: 3.703704e-05
+Step 4500000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4475 P 0.0000 T 0.9650
+Adsorbed: 1
+Total:         0	0	1024	
+Hard Corona:   0	0	1	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990411e-05	 Act. Conc.: 3.848380e-05
+Step 4600000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4695 P 0.0000 T 0.9797
+Adsorbed: 2
+Total:         0	0	1024	
+Hard Corona:   0	0	1	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990243e-05	 Act. Conc.: 3.949653e-05
+Step 4700000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5582 P 0.0000 T 1.0388
+Adsorbed: 7
+Total:         0	0	1024	
+Hard Corona:   0	0	3	
+Soft Corona 1: 0	0	3	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989399e-05	 Act. Conc.: 3.804977e-05
+Step 4800000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5261 P 0.0000 T 1.0174
+Adsorbed: 12
+Total:         0	0	1024	
+Hard Corona:   0	0	9	
+Soft Corona 1: 0	0	2	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.988555e-05	 Act. Conc.: 3.870081e-05
+Step 4900000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4881 P 0.0000 T 0.9920
+Adsorbed: 5
+Total:         0	0	1024	
+Hard Corona:   0	0	2	
+Soft Corona 1: 0	0	1	
+Soft Corona 2: 0	0	2	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989736e-05	 Act. Conc.: 3.906250e-05
+Step 5000000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4742 P 0.0000 T 0.9828
+Adsorbed: 9
+Total:         0	0	1024	
+Hard Corona:   0	0	6	
+Soft Corona 1: 0	0	2	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989061e-05	 Act. Conc.: 3.826678e-05
+Step 5100000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5027 P 0.0000 T 1.0018
+Adsorbed: 4
+Total:         0	0	1024	
+Hard Corona:   0	0	4	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989905e-05	 Act. Conc.: 3.776042e-05
+Step 5200000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5653 P 0.0000 T 1.0436
+Adsorbed: 2
+Total:         0	0	1024	
+Hard Corona:   0	0	1	
+Soft Corona 1: 0	0	1	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990243e-05	 Act. Conc.: 3.862847e-05
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989905e-05	 Act. Conc.: 3.819444e-05
+Adsorbed: 4
+Total:         0	0	1024	
+Hard Corona:   0	0	2	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	2	
+Step 5300000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4943 P 0.0000 T 0.9962
+Adsorbed: 6
+Total:         0	0	1024	
+Hard Corona:   0	0	2	
+Soft Corona 1: 0	0	3	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989568e-05	 Act. Conc.: 3.732639e-05
+Step 5400000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4708 P 0.0000 T 0.9805
+Adsorbed: 1
+Total:         0	0	1024	
+Hard Corona:   0	0	1	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990411e-05	 Act. Conc.: 3.920718e-05
+Step 5500000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4816 P 0.0000 T 0.9878
+Adsorbed: 1
+Total:         0	0	1024	
+Hard Corona:   0	0	1	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990411e-05	 Act. Conc.: 3.638600e-05
+Step 5600000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5132 P 0.0000 T 1.0088
+Adsorbed: 2
+Total:         0	0	1024	
+Hard Corona:   0	0	2	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990243e-05	 Act. Conc.: 3.899016e-05
+Step 5700000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4519 P 0.0000 T 0.9680
+Adsorbed: 6
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	2	
+Soft Corona 2: 0	0	4	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989568e-05	 Act. Conc.: 3.935185e-05
+Step 5800000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4895 P 0.0000 T 0.9930
+Adsorbed: 3
+Total:         0	0	1024	
+Hard Corona:   0	0	2	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990074e-05	 Act. Conc.: 3.884549e-05
+Step 5900000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5129 P 0.0000 T 1.0086
+Adsorbed: 3
+Total:         0	0	1024	
+Hard Corona:   0	0	1	
+Soft Corona 1: 0	0	1	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990074e-05	 Act. Conc.: 3.848380e-05
+Step 6000000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4524 P 0.0000 T 0.9682
+Adsorbed: 1
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990411e-05	 Act. Conc.: 3.971354e-05
+Step 6100000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4280 P 0.0000 T 0.9520
+Adsorbed: 1
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	1	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990411e-05	 Act. Conc.: 3.739873e-05
+Step 6200000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4605 P 0.0000 T 0.9736
+Adsorbed: 2
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	2	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990243e-05	 Act. Conc.: 3.754340e-05
+Step 6300000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4921 P 0.0000 T 0.9947
+Adsorbed: 0
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990580e-05	 Act. Conc.: 3.747106e-05
+Step 6400000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4514 P 0.0000 T 0.9676
+Adsorbed: 2
+Total:         0	0	1024	
+Hard Corona:   0	0	1	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990243e-05	 Act. Conc.: 3.776042e-05
+Step 6500000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5184 P 0.0000 T 1.0123
+Adsorbed: 3
+Total:         0	0	1024	
+Hard Corona:   0	0	1	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	2	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990074e-05	 Act. Conc.: 3.682002e-05
+Step 6600000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4963 P 0.0000 T 0.9976
+Adsorbed: 2
+Total:         0	0	1024	
+Hard Corona:   0	0	1	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990243e-05	 Act. Conc.: 3.920718e-05
+Step 6700000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4720 P 0.0000 T 0.9814
+Adsorbed: 2
+Total:         0	0	1024	
+Hard Corona:   0	0	2	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990243e-05	 Act. Conc.: 3.747106e-05
+Step 6800000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5057 P 0.0000 T 1.0038
+Adsorbed: 3
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	1	
+Soft Corona 2: 0	0	2	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990074e-05	 Act. Conc.: 3.891782e-05
+Step 6900000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4863 P 0.0000 T 0.9909
+Adsorbed: 15
+Total:         0	0	1024	
+Hard Corona:   0	0	8	
+Soft Corona 1: 0	0	1	
+Soft Corona 2: 0	0	6	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.988049e-05	 Act. Conc.: 3.501157e-05
+Step 7000000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4616 P 0.0000 T 0.9744
+Adsorbed: 8
+Total:         0	0	1024	
+Hard Corona:   0	0	4	
+Soft Corona 1: 0	0	2	
+Soft Corona 2: 0	0	2	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989230e-05	 Act. Conc.: 3.703704e-05
+Step 7100000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5115 P 0.0000 T 1.0077
+Adsorbed: 18
+Total:         0	0	1024	
+Hard Corona:   0	0	8	
+Soft Corona 1: 0	0	5	
+Soft Corona 2: 0	0	5	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.987543e-05	 Act. Conc.: 3.855613e-05
+Step 7200000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5473 P 0.0000 T 1.0315
+Adsorbed: 11
+Total:         0	0	1024	
+Hard Corona:   0	0	4	
+Soft Corona 1: 0	0	6	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.988724e-05	 Act. Conc.: 3.870081e-05
+Step 7300000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4618 P 0.0000 T 0.9745
+Adsorbed: 10
+Total:         0	0	1024	
+Hard Corona:   0	0	5	
+Soft Corona 1: 0	0	2	
+Soft Corona 2: 0	0	3	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.988893e-05	 Act. Conc.: 3.862847e-05
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989736e-05	 Act. Conc.: 3.920718e-05
+Adsorbed: 5
+Total:         0	0	1024	
+Hard Corona:   0	0	4	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	1	
+Step 7400000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5294 P 0.0000 T 1.0196
+Adsorbed: 8
+Total:         0	0	1024	
+Hard Corona:   0	0	7	
+Soft Corona 1: 0	0	1	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989230e-05	 Act. Conc.: 3.710937e-05
+Step 7500000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5593 P 0.0000 T 1.0395
+Adsorbed: 14
+Total:         0	0	1024	
+Hard Corona:   0	0	8	
+Soft Corona 1: 0	0	4	
+Soft Corona 2: 0	0	2	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.988218e-05	 Act. Conc.: 3.602431e-05
+Step 7600000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4797 P 0.0000 T 0.9864
+Adsorbed: 4
+Total:         0	0	1024	
+Hard Corona:   0	0	2	
+Soft Corona 1: 0	0	1	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989905e-05	 Act. Conc.: 3.971354e-05
+Step 7700000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4446 P 0.0000 T 0.9630
+Adsorbed: 4
+Total:         0	0	1024	
+Hard Corona:   0	0	3	
+Soft Corona 1: 0	0	1	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989905e-05	 Act. Conc.: 3.870081e-05
+Step 7800000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5253 P 0.0000 T 1.0168
+Adsorbed: 6
+Total:         0	0	1024	
+Hard Corona:   0	0	1	
+Soft Corona 1: 0	0	4	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989568e-05	 Act. Conc.: 3.732639e-05
+Step 7900000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5700 P 0.0000 T 1.0467
+Adsorbed: 2
+Total:         0	0	1024	
+Hard Corona:   0	0	1	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990243e-05	 Act. Conc.: 3.674769e-05
+Step 8000000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4795 P 0.0000 T 0.9864
+Adsorbed: 4
+Total:         0	0	1024	
+Hard Corona:   0	0	3	
+Soft Corona 1: 0	0	1	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989905e-05	 Act. Conc.: 3.812211e-05
+Step 8100000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5742 P 0.0000 T 1.0495
+Adsorbed: 1
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	1	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990411e-05	 Act. Conc.: 3.870081e-05
+Step 8200000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4994 P 0.0000 T 0.9996
+Adsorbed: 7
+Total:         0	0	1024	
+Hard Corona:   0	0	4	
+Soft Corona 1: 0	0	2	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989399e-05	 Act. Conc.: 3.949653e-05
+Step 8300000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4387 P 0.0000 T 0.9592
+Adsorbed: 3
+Total:         0	0	1024	
+Hard Corona:   0	0	2	
+Soft Corona 1: 0	0	1	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990074e-05	 Act. Conc.: 3.667535e-05
+Step 8400000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5796 P 0.0000 T 1.0531
+Adsorbed: 2
+Total:         0	0	1024	
+Hard Corona:   0	0	1	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990243e-05	 Act. Conc.: 3.682002e-05
+Step 8500000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4934 P 0.0000 T 0.9956
+Adsorbed: 3
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	1	
+Soft Corona 2: 0	0	2	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990074e-05	 Act. Conc.: 3.790509e-05
+Step 8600000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5763 P 0.0000 T 1.0509
+Adsorbed: 7
+Total:         0	0	1024	
+Hard Corona:   0	0	4	
+Soft Corona 1: 0	0	1	
+Soft Corona 2: 0	0	2	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989399e-05	 Act. Conc.: 3.884549e-05
+Step 8700000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5168 P 0.0000 T 1.0112
+Adsorbed: 1
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	1	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990411e-05	 Act. Conc.: 3.862847e-05
+Step 8800000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5272 P 0.0000 T 1.0182
+Adsorbed: 8
+Total:         0	0	1024	
+Hard Corona:   0	0	3	
+Soft Corona 1: 0	0	3	
+Soft Corona 2: 0	0	2	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989230e-05	 Act. Conc.: 4.000289e-05
+Step 8900000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5462 P 0.0000 T 1.0308
+Adsorbed: 3
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	3	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990074e-05	 Act. Conc.: 3.927951e-05
+Step 9000000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4747 P 0.0000 T 0.9831
+Adsorbed: 4
+Total:         0	0	1024	
+Hard Corona:   0	0	2	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	2	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989905e-05	 Act. Conc.: 3.725405e-05
+Step 9100000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4760 P 0.0000 T 0.9840
+Adsorbed: 4
+Total:         0	0	1024	
+Hard Corona:   0	0	2	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	2	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989905e-05	 Act. Conc.: 3.870081e-05
+Step 9200000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4752 P 0.0000 T 0.9835
+Adsorbed: 2
+Total:         0	0	1024	
+Hard Corona:   0	0	1	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990243e-05	 Act. Conc.: 3.877315e-05
+Step 9300000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5581 P 0.0000 T 1.0387
+Adsorbed: 2
+Total:         0	0	1024	
+Hard Corona:   0	0	1	
+Soft Corona 1: 0	0	1	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990243e-05	 Act. Conc.: 3.739873e-05
+Step 9400000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5205 P 0.0000 T 1.0136
+Adsorbed: 3
+Total:         0	0	1024	
+Hard Corona:   0	0	1	
+Soft Corona 1: 0	0	2	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990074e-05	 Act. Conc.: 3.797743e-05
+Step 9500000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4594 P 0.0000 T 0.9730
+Adsorbed: 0
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	0	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990580e-05	 Act. Conc.: 3.797743e-05
+Step 9600000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4298 P 0.0000 T 0.9532
+Adsorbed: 1
+Total:         0	0	1024	
+Hard Corona:   0	0	0	
+Soft Corona 1: 0	0	1	
+Soft Corona 2: 0	0	0	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.990411e-05	 Act. Conc.: 3.732639e-05
+Step 9700000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.4848 P 0.0000 T 0.9899
+Adsorbed: 15
+Total:         0	0	1024	
+Hard Corona:   0	0	7	
+Soft Corona 1: 0	0	6	
+Soft Corona 2: 0	0	2	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.988049e-05	 Act. Conc.: 3.732639e-05
+Step 9800000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5301 P 0.0000 T 1.0201
+Adsorbed: 10
+Total:         0	0	1024	
+Hard Corona:   0	0	4	
+Soft Corona 1: 0	0	4	
+Soft Corona 2: 0	0	2	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.988893e-05	 Act. Conc.: 3.833912e-05
+Step 9900000 Config 	 Etot 0.0000 Epot 0.0000 Ekin 1.5109 P 0.0000 T 1.0073
+Adsorbed: 9
+Total:         0	0	1024	
+Hard Corona:   0	0	5	
+Soft Corona 1: 0	0	3	
+Soft Corona 2: 0	0	1	
+Conc. obj. type 0: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 1: 0.000000e+00	 Act. Conc.: 0.000000e+00
+Conc. obj. type 2: 8.989061e-05	 Act. Conc.: 3.790509e-05
+Finisihing simulation. Computing g(r)
